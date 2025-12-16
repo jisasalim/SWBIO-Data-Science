@@ -1,5 +1,5 @@
-# Building a machine leanring model to predict the optical density of Acinetobacter baumannii
-This project utilises supervised machine learning to predict the growth of Acinetobacter baumannii grown in media supplemented and non-supplemented with glucose. 
+# Building a machine learning model to predict the optical density of Acinetobacter baumannii
+This project utilises supervised machine learning to predict the growth of Acinetobacter baumannii isolates grown in media supplemented with and without glucose. 
 
 # Experimental Design 
 Organism: Acinetobacter baumannii
