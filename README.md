@@ -10,7 +10,7 @@ SM37212 - Clinical isolate
 SM55869 - Clinical isolate
 SM52892 - Clinical isolate
 
-Growth conditions
+Growth conditions:
 Tryptic soy broth + 1% (v/v) glucose
 Tryptic soy broth only (no glucose)
 
@@ -71,12 +71,11 @@ Pipelines include pre-processing steps:
 **Prediction example:**
 
 ```python
-# Predict OD at 5 hours for a specific isolate and condition
-predict_OD(rf_pipeline, "NCTC12156", 1, 1, "A1", 18000)
-
+# Predict OD at 5 hours for a specific isolate and condition 
+predict_OD(rf_pipeline, "NCTC12156", 1, 1, "A1", 18000) 
 
 ## Usage 
-1. Close the repository 
+1. Clone the repository 
 git clone https://github.com/jisasalim/SWBIO-Data-Science.git
 cd SWBIO-Data-Science
 2. Open Jupyter notebook 
