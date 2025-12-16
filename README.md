@@ -75,11 +75,11 @@ Pipelines include pre-processing steps:
 predict_OD(rf_pipeline, "NCTC12156", 1, 1, "A1", 18000) 
 
 ## Usage 
-1. Clone the repository 
+1. **Clone the repository**
 git clone https://github.com/jisasalim/SWBIO-Data-Science.git
 cd SWBIO-Data-Science
-2. Open Jupyter notebook 
-juypter notebook acinetobacter_v2.ipynb
+2. Open Jupyter notebook  
+jupyter notebook acinetobacter_v2.ipynb 
 3. Follow notebook instructions to:
    - Load the dataset  
    - Train machine learning models  
