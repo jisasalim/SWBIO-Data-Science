@@ -4,15 +4,15 @@ This project utilises supervised machine learning to predict the growth of Acine
 # Experimental Design 
 Organism: Acinetobacter baumannii
 Isolates:
-NCTC 12156 - Wild-type
-ATCC 1710 - Human isolate
-SM37212 - Clinical isolate
-SM55869 - Clinical isolate
-SM52892 - Clinical isolate
+- NCTC 12156 - Wild-type
+- ATCC 1710 - Human isolate
+- SM37212 - Clinical isolate
+- SM55869 - Clinical isolate
+- SM52892 - Clinical isolate
 
 Growth conditions:
-Tryptic soy broth + 1% (v/v) glucose
-Tryptic soy broth only (no glucose)
+- Tryptic soy broth + 1% (v/v) glucose
+- Tryptic soy broth only (no glucose)
 
 Measurement: OD @ 600nm
 Duration: OD taken every hour for 48-hours. Time is measured in seconds (s)    
@@ -31,11 +31,11 @@ The dataset consists of OD readings taken from a growth curve assay. Each row is
 
 ## Dependencies 
 This project requies Python 3 and the following libraries:
-pandas 
-numpy
-seaborn
-matplotlib
-scikit-learn
+- pandas 
+- numpy
+- seaborn
+- matplotlib
+- scikit-learn
 
 ## Methodology
 
@@ -79,7 +79,7 @@ predict_OD(rf_pipeline, "NCTC12156", 1, 1, "A1", 18000)
 git clone https://github.com/jisasalim/SWBIO-Data-Science.git
 cd SWBIO-Data-Science
 2. Open Jupyter notebook 
-jypter notebook acinetobacter_v2.ipynb
+juypter notebook acinetobacter_v2.ipynb
 3. Follow notebook instructions to:
    - Load the dataset  
    - Train machine learning models  
