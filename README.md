@@ -49,16 +49,16 @@ Selected features: `isolate`, `glucose_vv`, `experiment_repeat`, `well_id`, `tim
 Target variable: `OD` 
 
 **Modeling:**
-RandomForestRegressor 
-GradientBoostingRegressor
-Model trained on 80% and tested on 20%)
+- RandomForestRegressor 
+- GradientBoostingRegressor
+- Model trained on 80% and tested on 20%)
 
 **Model evaluation:** 
-Root mean squared error (RMSE)
-Coeffiecient of determination (R²)
+- Root mean squared error (RMSE)
+- Coeffiecient of determination (R²)
 
-5-fold cross-validation on training set 
-Predicted vs actual OD values plotted using scatter plots
+- 5-fold cross-validation on training set 
+- Predicted vs actual OD values plotted using scatter plots
 
 ## Machine Learning Models
 The models are implemented in Python using `scikit-learn`.  
