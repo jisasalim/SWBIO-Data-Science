@@ -18,7 +18,7 @@ Measurement: OD @ 600nm
 Duration: OD taken every hour for 48-hours. Time is measured in seconds (s)    
 
 # Dataset information
-**File:** `glucose_growth_curves_48h.csv
+**File:** `glucose_growth_curves_48h.csv`
 The dataset consists of OD readings taken from a growth curve assay. Each row is a single OD measurement at a specific time point. 
 
 **Columns:**
