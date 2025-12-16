@@ -67,7 +67,8 @@ Pipelines include pre-processing steps:
 - **One-hot encoding** for categorical variables  
 - **RandomForestRegressor** with 500 trees  
 - **GradientBoostingRegressor** with 500 estimators and learning rate 0.05
-**Prediction example:**
+
+## Prediction example:
 ```python
 # Predict OD at 5 hours for a specific isolate and condition 
 predict_OD(rf_pipeline, "NCTC12156", 1, 1, "A1", 18000) 
@@ -91,16 +92,6 @@ jupyter notebook acinetobacter_v2.ipynb
 
 
 
-
-
-
-
-
-
-
-
-
- 
 # Built With
 
 - [Python 3.x](https://www.python.org/)  
