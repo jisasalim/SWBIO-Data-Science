@@ -67,14 +67,22 @@ Pipelines include pre-processing steps:
 - **One-hot encoding** for categorical variables  
 - **RandomForestRegressor** with 500 trees  
 - **GradientBoostingRegressor** with 500 estimators and learning rate 0.05
+**Prediction example:**
+```python
+# Predict OD at 5 hours for a specific isolate and condition 
+predict_OD(rf_pipeline, "NCTC12156", 1, 1, "A1", 18000) 
+```
 
 ## Usage 
 1. Clone the repository
 ``` bash 
 git clone https://github.com/jisasalim/SWBIO-Data-Science.git
-cd SWBIO-Data-Science
+cd SWBIO-Data-Science 
+```
 3. Open Jupyter notebook  
+```bash 
 jupyter notebook acinetobacter_v2.ipynb 
+```
 4. Follow notebook instructions to:
    - Load the dataset  
    - Train machine learning models  
@@ -82,10 +90,7 @@ jupyter notebook acinetobacter_v2.ipynb
    - Generate OD predictions for specific isolates
 
 
-## Prediction example
-```python
-# Predict OD at 5 hours for a specific isolate and condition 
-predict_OD(rf_pipeline, "NCTC12156", 1, 1, "A1", 18000) 
+
 
 
 
